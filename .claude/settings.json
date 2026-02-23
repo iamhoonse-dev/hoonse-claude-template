@@ -13,18 +13,5 @@
     "git-workflow@hoonse-claude-plugins": true,
     "github-workflow@hoonse-claude-plugins": true,
     "project-analyzer@hoonse-claude-plugins": true
-  },
-  "hooks": {
-    "SessionStart": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash .claude/scripts/check-hoonse-plugins-setup.sh",
-            "statusMessage": "셋업 상태 확인 중..."
-          }
-        ]
-      }
-    ]
   }
 }

@@ -4,15 +4,9 @@
 
 ## 시작하기
 
-1. `/setup` 을 실행하면 마켓플레이스 등록과 플러그인 설치를 안내받을 수 있습니다.
-2. 또는 직접 설치할 수 있습니다:
-   ```
-   /plugin marketplace add iamhoonse-dev/hoonse-claude-plugins
-   /plugin install <plugin-name>@hoonse-claude-plugins
-   ```
+이 템플릿으로 프로젝트를 생성하면, `.claude/settings.json`에 마켓플레이스와 플러그인이 이미 설정되어 있어 별도의 셋업 없이 바로 사용할 수 있습니다.
 
 ## 구조
 
 - `.claude/settings.json` - 마켓플레이스 및 플러그인 설정 (git 공유)
 - `.claude/settings.local.json` - 개인 설정 (gitignore)
-- `.claude/skills/setup/` - 초기 셋업 스킬 (부트스트래퍼)
